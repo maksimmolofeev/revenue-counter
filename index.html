@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счетчик дохода</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="wrapper_content">
+
+        <h1>Счетчик доходов</h1>
+
+        <div class="input_data">
+            <div>
+                <h2>Цена букета</h2>
+                <p><input type="number" class="js-price input_block"></p>
+            </div>
+
+            <div>
+                <h2>% flowwow</h2>
+                <p><input type="number" class="js-percent input_block"></p>
+            </div>
+
+            <div>
+                <h2>Сумма закупки</h2>
+                <p><input type="number" class="js-purchase input_block"></p>
+            </div>
+
+            <div>
+                <h2>Сумма доставки</h2>
+                <p><input type="number" class="js-delivery input_block"></p>
+            </div>
+        </div>
+
+        <div>
+            <button class="js-btn btn_block">Расчитать</button>
+        </div>
+
+        <div class="js-result result_block"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
